@@ -1,0 +1,21 @@
+<p>my-detail works!</p>
+<form [formGroup]="detailInfo" (ngSubmit)="submitInfo()">
+<div class="container fluid">
+<h3 class="text-primary">*Add the Products*</h3>
+    <label for="id1">Name : </label>
+    <input type="text" id="id1" class="form-control" formControlName="prd" name="prd">
+
+    <label for="id2" class="me-2">Price : </label>
+    <input type="text" id="id2" class="form-control" formControlName="price">
+
+    <label for="id3" class="me-2">Brand : </label>
+    <input type="text" id="id3" class="form-control" formControlName="brand">
+    <br>
+    
+    <div class="d-grid gap-2">
+        <button class="btn btn-success mb-2">Submit</button>
+        <button class="btn btn-primary" routerLink="/my-list"> Back</button>
+    </div>
+
+</div>
+</form>

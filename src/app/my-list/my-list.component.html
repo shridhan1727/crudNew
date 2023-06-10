@@ -1,0 +1,38 @@
+<p>my-list works!</p>
+
+<!-- <h2>Interval Response : {{InfoAsync | async}}</h2>  Async pipe -->
+
+<div class="container fluid">
+<table class="table">
+<thead>
+      <tr>
+        <th class="table-info">Sr.No</th>
+        <th class="table-info">Prd.Name</th>
+        <th class="table-info">Price</th>
+        <th class="table-info">Brand</th>
+        <th class="table-danger text-center">Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>0</th>
+        <td>Mobile</td>
+        <td>7000</td>
+        <td>Vivo</td>
+        <td class="text-center"><button class="btn btn-danger">Delete</button></td>
+      </tr>
+      <tr *ngFor="let item of listInfo let i =index" (click)="Navigation(item.id)">
+        <!-- //below step for filter method// -->
+        <!-- <tr *ngFor="let item of newListInfo let i =index" (click)="Navigation(item.id)"> -->
+
+        <th>{{i+1}}</th>
+        <td>{{item.prd}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.brand}}</td>
+        <td class="text-center"><button class="btn btn-danger" (click)="deletePrd">Delete</button></td>
+      </tr>
+    </tbody>
+</table>
+<button type="button" class="btn btn-secondary" routerLink="/my-detail">Add Data</button>
+</div>
+

@@ -1,0 +1,83 @@
+{
+  "infoEnd": [
+    {
+      "prd": "Laptop",
+      "price": "4523",
+      "brand": "HP",
+      "id": 2
+    },
+    {
+      "prd": "Laptop-2",
+      "price": "10001",
+      "brand": "Apple",
+      "id": 3
+    },
+    {
+      "prd": "TV",
+      "price": "7300",
+      "brand": "LG",
+      "id": 4
+    },
+    {
+      "prd": "Charger",
+      "price": "5000",
+      "brand": "Op",
+      "id": 5
+    },
+    {
+      "prd": "LCD",
+      "price": "6200",
+      "brand": "SONY",
+      "id": 6
+    },
+    {
+      "prd": "LED",
+      "price": "8000",
+      "brand": "Lenovo",
+      "id": 7
+    },
+    {
+      "prd": "Smart Watch",
+      "price": "2900",
+      "brand": "Noise",
+      "id": 8
+    },
+    {
+      "prd": "iphone-12",
+      "price": "6599",
+      "brand": "Apple",
+      "id": 10
+    },
+    {
+      "prd": "iphone-14",
+      "price": "9000",
+      "brand": "Apple",
+      "id": 11
+    },
+    {
+      "prd": "Ear-buds",
+      "price": "800",
+      "brand": "Red mi",
+      "id": 13
+    },
+    {
+      "prd": "Power-bank",
+      "price": "4630",
+      "brand": "Syska",
+      "id": 14
+    },
+    {
+      "prd": "",
+      "price": 0,
+      "brand": "",
+      "id": 15
+    },
+    {
+      "prd": "Mouse-wireless",
+      "price": "250",
+      "brand": "HP",
+      "id": 16
+    }
+  ],
+  "detail-info": []
+}
